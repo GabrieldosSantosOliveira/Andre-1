@@ -1,0 +1,14 @@
+.container{
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
+  color: rgb(143, 0, 255);
+  font-weight: bold;
+}
+.container div:hover{
+  border-bottom: 3px solid rgb(143, 0, 255);
+  transition:all 0.3s ease;
+
+}
