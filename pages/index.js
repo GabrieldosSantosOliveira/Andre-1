@@ -1,21 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
 import Mean from '../components/Mean'
 import Logo from '../components/Logo'
-
-
-const YourComponent = () => (
-  <Image
-    src="/images/profile.jpg" 
-    height={1433} 
-    width={1080}
-    alt="Your Name"
-  />
-) 
+import YourComponent from "../components/Imagem"
 
 export default function Home() {
   return (

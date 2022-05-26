@@ -1,0 +1,4 @@
+.container img{
+  grid-area: aside;
+  height: auto;
+}
