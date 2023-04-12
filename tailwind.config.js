@@ -8,7 +8,13 @@ module.exports = {
       background:
         'linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%)',
     },
-
+    keyframes: {
+      background: {
+        '0%': { 'background-position': '0% 50%' },
+        '50%': { 'background-position': '100% 50%' },
+        '100%': { 'background-position': '0% 50%' },
+      },
+    },
     colors: {
       transparent: colors.transparent,
       white: '#FFF',
@@ -17,7 +23,14 @@ module.exports = {
       subtitle: '#b3b3b3',
       'bg-button': '#e9e6e3',
     },
-    extend: {},
+    extend: {
+      animation: {
+        background: 'background 15s ease infinite',
+      },
+      backgroundSize: {
+        300: '300% 300%',
+      },
+    },
   },
   plugins: [],
 };
