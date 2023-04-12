@@ -1,7 +1,0 @@
-.container{
-  grid-area: footer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f4e5ff;
-}
