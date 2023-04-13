@@ -4,6 +4,12 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link rel="icon" href="favicon.svg" />
         <meta
           name="description"
@@ -11,6 +17,10 @@ export default function Document() {
         />
         <meta name="image" content="favicon.svg" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />
